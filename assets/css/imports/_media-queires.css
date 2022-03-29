@@ -1,0 +1,24 @@
+.show-on-small {
+    display: none;
+}
+@media (max-width: 800px){
+    .row {
+        display: block;
+    }
+    .col {
+        width: 100%;
+    }
+    .hidden-on-small {
+        display: none;
+        
+    }
+    .show-on-small {
+        display: block;
+    }
+    ul.social {
+        margin-left: 0;
+    }
+    footer.absolute {
+        position: relative;
+    }
+}
